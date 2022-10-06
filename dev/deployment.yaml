@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx:latest
+        image: registry.cn-shenzhen.aliyuncs.com/flyele-public/nginx
         ports:
         - containerPort: 80
         
