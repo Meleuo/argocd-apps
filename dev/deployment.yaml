@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: registry.cn-shenzhen.aliyuncs.com/flyele-public/nginx
+        image: harbor.nm10086.privatization.flyele.vip/flyele/nginx-controller:v1.3.1
         ports:
         - containerPort: 80
         
